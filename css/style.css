@@ -69,7 +69,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-image: url(../images/bghero.png);
+  background-image: url(../images/fhdkekbg.png);
   background-size: cover;
   background-attachment: fixed;
 }
@@ -344,7 +344,7 @@ a:focus {
 
 
 .roadmap_section {
-  background-image: url(../images/roadmap.png);
+  background-image: url(../images/roadmap22.png);
   background-size: cover;
   background-attachment: fixed;
   color: #ffffff;
