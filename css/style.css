@@ -120,7 +120,7 @@ body {
 
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item.active a::after, .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item:hover a::after {
   display: block;
-  background-color: #ff2953;
+  background-color: #34700e;
 }
 
 a,
@@ -396,9 +396,8 @@ a:focus {
 
 /* footer section*/
 .footer_section {
-  background-color: #fbfdfd;
-  padding: 20px;
-  font-weight: 500;
+  background-color: #282b2b;
+    font-weight: 500;
 }
 
 .footer_section p {
@@ -412,3 +411,4 @@ a:focus {
 }
 
 /* end footer section*/
+

@@ -71,7 +71,7 @@
 
 @media (max-width: 1420px) {
     .hero_area {
-        height: 100vh;
+        
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
