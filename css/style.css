@@ -467,3 +467,57 @@ a:focus {
   color: white;
   text-decoration: underline;
 }
+
+
+
+/*Partners*/
+
+
+.partners_section {
+  background-image: url(../images/partners-min.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  color: #ffffff;
+}
+
+.partners_section .partners_container {
+  padding-top: 25px;
+}
+
+.partners_section .partners_container .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin: 25px 10px 0 10px;
+}
+
+.partners_section .partners_container .box .img-box {
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.partners_section .partners_container .box .img-box img {
+  max-width: 100%;
+}
+
+.partners_section .partners_container .box .detail-box h5 {
+  font-weight: bold;
+}
+
