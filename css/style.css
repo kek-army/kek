@@ -521,3 +521,115 @@ a:focus {
   font-weight: bold;
 }
 
+.zoom:hover {
+  transform: scale(1.2);
+  transition: ease-in-out 0.2s;
+}
+
+.zoom2:hover {
+  transform: scale(1.1);
+  transition: ease-in-out 0.2s;
+}
+
+
+
+/*motivational*/
+
+.motiv_section {
+  background-image: url(../images/motiv.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  color: #ffffff;
+  text-align: center;
+}
+
+.motiv_section h2 {
+  font-weight: bold;
+}
+
+.motiv_section p {
+  margin-top: 35px;
+}
+
+.motiv_section .btn-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 45px;
+}
+
+.motiv_section .btn-box a {
+  display: inline-block;
+  padding: 8px 35px;
+  background-color: transparent;
+  border: 1.5px solid #ffffff;
+  color: #ffffff;
+  border-radius: 0;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+  text-transform: uppercase;
+}
+
+.motiv_section .btn-box a:hover {
+  background-color: #ffffff;
+  color: #000000;
+
+}
+
+/*athletes section*/
+
+.athletes_section {
+  background-image: url(../images/athletes-min.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  color: #ffffff;
+}
+
+.athletes_section .box {
+  margin-top: 55px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.athletes_section .box .name h5 {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.athletes_section .box .img-box {
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.athletes_section .box .img-box img {
+  width: 100%;
+}
+
+.athletes_section .box .social_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 225px;
+  padding: 12px 45px;
+  background-color: #ffffff;
+  border-radius: 50px;
+  margin-top: -25px;
+}
+
