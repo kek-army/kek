@@ -64,12 +64,17 @@
     }
 }
 
-@media (max-width: 480px) {}
+@media (max-width: 480px) {
+    .zoom2:hover{
+        transform: scale(1);
+    }
+}
 
 @media (max-width: 420px) {
     .slider_section .detail-box h1 {
         letter-spacing: .3rem;
     }
+    
 }
 
 @media (max-width: 360px) {}
